@@ -3,7 +3,7 @@ CREATE DATABASE IF NOT EXISTS SpotifyClone;
 CREATE TABLE SpotifyClone.subscription(
   `subscription_id` INT PRIMARY KEY AUTO_INCREMENT,
   `subscription_name` VARCHAR(45) NOT NULL,
-  `subscription_value` DECIMAL NOT NULL
+  `subscription_value` DOUBLE NOT NULL
 ) ENGINE = InnoDB;
 
 CREATE TABLE SpotifyClone.user (
